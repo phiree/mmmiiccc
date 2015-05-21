@@ -15,7 +15,7 @@ line-height:0;font-family:"微软雅黑" ;
 }
 
 .navbar-inner{
-    text-align:center;
+    text-align:center;background-color: #606060;
 }
 .navbar-inverse .navbar-inner {
 background-image: none;

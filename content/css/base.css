@@ -19,7 +19,7 @@ font-size:12px;
 }
 #footer  div
 {
- padding:30px 0 30px 0;
+ padding:30px 0 15px 0;
 }
 #footer a{
 color:#a8a8a8;
@@ -31,7 +31,31 @@ text-decoration:none;
 }
 /*导航底*/
 
+#footer,.bottom-nav
+{
+    background-color: #f2f2f2;
+}
 .bottom-nav
 {
-background-color:#f2f2f2;
+    padding : 50px 0;
+    font-size: 12px;
+     border-bottom:1px solid #ddd;
 }
+.bottom-nav ul
+{
+    list-style-type: none;
+}
+.bottom-nav ul a
+{
+    color: #bbb;
+    
+}
+.bottom-nav ul .t a
+{
+    color: #999 ;
+}
+.bottom-nav ul a:hover,.bottom-nav ul .t a:hover
+{
+    text-decoration:none;
+    color:#3D9AD0;
+    }
