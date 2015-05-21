@@ -4,29 +4,57 @@
 }
 .zhiwei p
 {
-    text-align:left;
+    text-align: left;
 }
 .text-content p
 {
     margin: 20px auto;
     padding: 0;
-  line-height:1.1;
-  
+    line-height: 1.1;
 }
 .text-content .p1
 {
     font-size: 36px;
-    font-weight:900;
+    font-weight: 900;
 }
 .text-content .p2
 {
     font-size: 24px;
-     font-weight:900;
-    
+    font-weight: 900;
 }
 .text-content .p3
 {
     font-size: 18px;
-    margin-top:37px;
-       line-height:1.5;
+    margin-top: 37px;
+    line-height: 1.5;
 }
+#footer
+{
+    background-color: #f2f2f2;
+}
+.bottom-nav
+{
+    padding : 50px 0;
+    font-size: 12px;
+     border-bottom:1px solid #ddd;
+}
+.bottom-nav ul
+{
+    list-style-type: none;
+}
+.bottom-nav ul a
+{
+    color: #bbb;
+    
+}
+.bottom-nav ul .t a
+{
+    color: #999 ;
+}
+.bottom-nav ul a:hover,.bottom-nav ul .t a:hover
+{
+    text-decoration:none;
+    color:#3D9AD0;
+    }
+
+
