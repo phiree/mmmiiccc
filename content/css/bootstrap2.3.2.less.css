@@ -1,6 +1,6 @@
-body
+﻿body
 {
-line-height:0;
+line-height:0;font-family:"微软雅黑" ;
 }
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner
 {
@@ -20,7 +20,7 @@ line-height:0;
 .navbar-inverse .navbar-inner {
 background-image: none;
 background-color: #606060;
-font-family:"微软雅黑" ;
+
 }
  .navbar-inverse .nav > li > a
 {

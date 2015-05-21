@@ -1,4 +1,7 @@
-
+body
+{
+    font-family:Î¢ÈíÑÅºÚ;
+    }
 a.brand:hover{
 background-color:#606060 !important;
 }
@@ -8,7 +11,7 @@ display:block;
 padding:4px 2px 4px 2px;
 }
 
-
+/*--°æÈ¨µ×*/
 #footer{
 text-align:center;
 color:#a8a8a8;
@@ -25,4 +28,10 @@ color:#a8a8a8;
 {
 color:#0287c7;
 text-decoration:none;
+}
+/*µ¼º½µ×*/
+
+.bottom-nav
+{
+background-color:#f2f2f2;
 }

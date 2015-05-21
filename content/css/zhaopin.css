@@ -1,0 +1,32 @@
+.text-content
+{
+    text-align: center;
+}
+.zhiwei p
+{
+    text-align:left;
+}
+.text-content p
+{
+    margin: 20px auto;
+    padding: 0;
+  line-height:1.1;
+  
+}
+.text-content .p1
+{
+    font-size: 36px;
+    font-weight:900;
+}
+.text-content .p2
+{
+    font-size: 24px;
+     font-weight:900;
+    
+}
+.text-content .p3
+{
+    font-size: 18px;
+    margin-top:37px;
+       line-height:1.5;
+}
