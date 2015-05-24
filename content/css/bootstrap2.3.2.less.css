@@ -22,6 +22,7 @@ background-image: none;
 background-color: #606060;
 
 }
+ 
  .navbar-inverse .nav > li > a
 {
 
@@ -31,6 +32,10 @@ height:26px;
 padding-left:30px;
 padding-right:30px;
 }
+.navbar-inverse .nav > li > input
+{
+    margin-top:8px;
+    }
  .navbar-inverse .nav > li >a:hover
 {
 color:#fff;

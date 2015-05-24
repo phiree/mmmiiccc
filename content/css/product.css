@@ -1,33 +1,22 @@
-.text-content
+.product-top
 {
-    text-align: center;
+    padding-top:15px;
+    background-color: #F9F9F8 !important;
+   
 }
-.zhiwei p
+.product-top>.container>.row>div
 {
-    text-align: left;
-}
-.text-content p
+line-height:1.1;
+    }
+.product-top a
 {
-    margin: 20px auto;
-    padding: 0;
-    line-height: 1.1;
+    color: #A4A09B !important;
+    text-decoration: none;
+   
 }
-.text-content .p1
+.product-top a:hover
 {
-    font-size: 36px;
-    font-weight: 900;
+    color: #3D9AD0 !important;
 }
-.text-content .p2
-{
-    font-size: 24px;
-    font-weight: 900;
-}
-.text-content .p3
-{
-    font-size: 18px;
-    margin-top: 37px;
-    line-height: 1.5;
-}
-
-
+ 
 
