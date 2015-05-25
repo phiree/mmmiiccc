@@ -1,6 +1,7 @@
 ﻿body
 {
-line-height:0;font-family:"微软雅黑" ;
+line-height:0;
+font-family:"微软雅黑" ;
 }
 .navbar-fixed-top .navbar-inner, .navbar-static-top .navbar-inner
 {
@@ -28,7 +29,7 @@ background-color: #606060;
 
 color:#fff;
 line-height:22px;
-height:26px;
+height:24px;
 padding-left:30px;
 padding-right:30px;
 }

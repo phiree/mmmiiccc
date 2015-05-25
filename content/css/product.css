@@ -1,22 +1,141 @@
 .product-top
 {
-    padding-top:15px;
+    padding-top: 15px;
     background-color: #F9F9F8 !important;
-   
+    text-align: center;
+    border-bottom: solid 1px #ccc;
 }
-.product-top>.container>.row>div
+.product-top > .container > .row > div
 {
-line-height:1.1;
-    }
+    line-height: 1.1;
+}
 .product-top a
 {
     color: #A4A09B !important;
     text-decoration: none;
-   
+    padding: 0 15px 26px 15px;
 }
 .product-top a:hover
 {
     color: #3D9AD0 !important;
 }
- 
+.product-top .s
+{
+    padding: 26px 0 13px 0;
+}
+.product-top .on
+{
+    border-bottom: solid 1px #000;
+    color: #000 !important;
+}
+.pf
+{
+    line-height: 1;
+    color: #999;
+    font-weight: 800;
+}
+.prodetail
+{
+    padding-top: 35px;
+}
+.prodetail .dvImg
+{
+    border: solid 1px #ccc;
+}
+.pf h1
+{
+    color: #000;
+    font-size: 36px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.pf .desc
+{
+    color: #ff0000;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.pf .price
+{
+    font-size: 30px;
+    color: #cb000a;
+    display: inline-block;
+    position:relative;
+    top:-10px;
+}
+.pf .row-fluid
+{
+    line-height: 1;
+    vertical-align: middle;
+    
+    margin-bottom:10px;
+}
+.pf .row-fluid .span2
+{
+     font-weight:lighter;
+     color:#ccc;
+    }
+.pf .co
+{
+     height:24px;
+     width:24px;
+     display:inline-block;
+     border:solid 1px black;
+    margin-right:5px;
+    position:relative;
+    top:-6px;
+    }
+     .pf .amount
+     {
+          margin-bottom:20px;
+         }
+    .pf .amount span, .pf .amount input
+    {
+         cursor:pointer;
+         display:inline-block;
+         border:solid 1px #ddd;
+          
+         margin-right:5px;
+         text-align:center;
+         vertical-align:middle;
+         font-size:36px;
+        }
+          .pf .amount span
+          {
+               width:28px; padding:21px 5px 0 5px;
+               height:60px;
+              }
+         .pf .amount input
+         {
+            height:74px;
+             width:104px;
+             -webkit-border-radius:0 !important;
+             margin-bottom:0;
+             }
+             .pf .amount label
+             { display:inline-block;
+               margin-left:10px;
+                 }
+                 
+                 .buybtb button
+                 {
+                      width:140px;
+                      height:45px;
+                      font-size:18px;
+                      border:solid 1px #ddd;
+                      margin-right:10px;
+                      display:inline-block;
+                     }
+                 .buybtb .buy
+                 {
+                  color:White;
+                  background-color:#008BCB;      
+                     }
+                      .buybtb .addcart
+                 {
+                  color:#222;
+                  background-color:#F4F3F2;      
+                     }
+
+
 
