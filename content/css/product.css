@@ -60,82 +60,144 @@
     font-size: 30px;
     color: #cb000a;
     display: inline-block;
-    position:relative;
-    top:-10px;
+    position: relative;
+    top: -10px;
 }
 .pf .row-fluid
 {
     line-height: 1;
     vertical-align: middle;
-    
-    margin-bottom:10px;
+    margin-bottom: 10px;
 }
 .pf .row-fluid .span2
 {
-     font-weight:lighter;
-     color:#ccc;
-    }
+    font-weight: lighter;
+    color: #ccc;
+}
 .pf .co
 {
-     height:24px;
-     width:24px;
-     display:inline-block;
-     border:solid 1px black;
-    margin-right:5px;
-    position:relative;
-    top:-6px;
-    }
-     .pf .amount
-     {
-          margin-bottom:20px;
-         }
-    .pf .amount span, .pf .amount input
-    {
-         cursor:pointer;
-         display:inline-block;
-         border:solid 1px #ddd;
-          
-         margin-right:5px;
-         text-align:center;
-         vertical-align:middle;
-         font-size:36px;
-        }
-          .pf .amount span
-          {
-               width:28px; padding:21px 5px 0 5px;
-               height:60px;
-              }
-         .pf .amount input
-         {
-            height:74px;
-             width:104px;
-             -webkit-border-radius:0 !important;
-             margin-bottom:0;
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    border: solid 1px black;
+    margin-right: 5px;
+    position: relative;
+    top: -6px;
+}
+.pf .amount
+{
+    margin-bottom: 20px;
+}
+.pf .amount span, .pf .amount input
+{
+    cursor: pointer;
+    display: inline-block;
+    border: solid 1px #ddd;
+    margin-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 36px;
+}
+.pf .amount span
+{
+    width: 28px;
+    padding: 21px 5px 0 5px;
+    height: 60px;
+}
+.pf .amount input
+{
+    height: 74px;
+    width: 104px;
+    -webkit-border-radius: 0 !important;
+    margin-bottom: 0;
+}
+.pf .amount label
+{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.buybtb button
+{
+    width: 140px;
+    height: 45px;
+    font-size: 18px;
+    border: solid 1px #ddd;
+    margin-right: 10px;
+    display: inline-block;
+}
+.buybtb .buy
+{
+    color: White;
+    background-color: #008BCB;
+}
+.buybtb .addcart
+{
+    color: #222;
+    background-color: #F4F3F2;
+}
+#search
+{
+    margin: 8px 0 5px 0;
+}
+#search input
+{
+    color: #dadada !important;
+}
+
+.dvImg
+{
+    text-align: center;
+    margin-bottom:50px;
+}
+ 
+    .carousel-indicators {
+        position: absolute;
+		bottom: -40px;
+		left: 50%;
+		z-index: 15;
+		width: 60%;
+		padding-left: 0;
+		margin-left: -30%;
+		text-align: center;
+		top:inherit;
+		
              }
-             .pf .amount label
-             { display:inline-block;
-               margin-left:10px;
-                 }
-                 
-                 .buybtb button
-                 {
-                      width:140px;
-                      height:45px;
-                      font-size:18px;
-                      border:solid 1px #ddd;
-                      margin-right:10px;
-                      display:inline-block;
-                     }
-                 .buybtb .buy
-                 {
-                  color:White;
-                  background-color:#008BCB;      
-                     }
-                      .buybtb .addcart
-                 {
-                  color:#222;
-                  background-color:#F4F3F2;      
-                     }
+                .carousel-indicators li
+                {
+                    background:url(../img/dot_white.png) top left no-repeat;
+                    }
+.carousel-indicators .active
+{
+      
+     background:url(../img/dot_red.png) top left no-repeat;
+    }
+    .carousel-indicators li
+    {
+        width:18px;
+        height:18px;
+}
+
+.prodesc
+{
+    margin-top:50px;
+    line-height:1;
+    }
+    
+    .prodesc span
+    {
+            font-size:18px;
+           
+            padding:17px 36px;
+             
+            color:#ccc;
+            
+        }
+         .prodesc span.active
+         {
+              color:#000;
+               border-bottom:1px solid #000;
+             }
 
 
 

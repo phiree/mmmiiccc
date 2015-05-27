@@ -47,7 +47,11 @@
                     </ul>
                 </li>
                 <li>
-                    <input type="text" class=" form-search" /></li>
+                    <div class="input-prepend" id="search">
+                        <span class="add-on"><i class="icon-search"></i></span>
+                        <input type="text" class="form-search" value="请输入关键字" />
+                    </div>
+                </li>
             </ul>
         </div>
     </div>
@@ -85,23 +89,35 @@
         </div>
     </div>
     <!--头部End-->
+    <!--产品详情-->
     <div class="container prodetail">
         <div class="row">
             <div class="span6">
-                <div class="dvImg">
-                    <img alt="Product Image" src="content/img/p1.png" />
-                </div>
-                <div>
-                    <img src="content/img/dot_red.png" />
-                    <img src="content/img/dot_red.png" />
-                    <img src="content/img/dot_red.png" />
+                <div id="myCarousel" class="carousel slide dvImg">
+                    <!-- Carousel items -->
+                    <div class="carousel-inner">
+                        <div class="active item">
+                            <img alt="Product Image" src="content/img/p1.png" /></div>
+                        <div class="item">
+                            <img alt="Product Image" src="content/img/p1.png" /></div>
+                        <div class="item">
+                            <img alt="Product Image" src="content/img/p1.png" /></div>
+                    </div>
+                    <!-- Carousel nav -->
+                    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
                 </div>
             </div>
             <div class="span6 pf">
                 <h1>
                     麦客基因BB霜</h1>
                 <div class="desc">
-                    <span>保温控油      </span><span>遮瑕保湿     </span><span>滋润肌肤</span>
+                    <span>保温控油 </span><span>遮瑕保湿 </span><span>滋润肌肤</span>
                 </div>
                 <hr />
                 <div class="row-fluid">
@@ -149,21 +165,36 @@
                         颜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;色:
                     </div>
                     <div class="span8">
-                       <span class="co" style="background-color:Red"></span>
-                        <span class="co" style="background-color:Green"></span>
-                         <span class="co" style="background-color:Black"></span>
+                        <span class="co" style="background-color: Red"></span><span class="co" style="background-color: Green">
+                        </span><span class="co" style="background-color: Black"></span>
                     </div>
                 </div>
                 <hr />
                 <div class="amount">
-                <span>-</span><input type="text" value="1" /><span>+</span><label>库存数:254</label>
+                    <span>-</span><input type="text" value="1" /><span>+</span><label>库存数:254</label>
                 </div>
                 <div class="buybtb">
-               <button class="buy">立即购买</button><button class="addcart">加入购物车</button>
+                    <button class="buy">
+                        立即购买</button>
+                    <button class="addcart">
+                        加入购物车</button>
                 </div>
             </div>
         </div>
+        <div class="row  prodesc">
+            <div class="span4">
+                <span class="detail active">商品详情</span><span class="remark">商品评价</span>
+            </div>
+        </div>
+       <div class="row">
+       <hr />
+       </div>
+        <div>
+        <img src="content/img/details.png" />
+        </div>
+
     </div>
+    <!--产品详情End-->
     <!--底部Begin 整站公用-->
     <div id="footer">
         <div>
