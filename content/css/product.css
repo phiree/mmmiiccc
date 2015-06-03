@@ -198,6 +198,46 @@
               color:#000;
                border-bottom:1px solid #000;
              }
+             
+             .recentbrowsed
+             {
+                  margin:50px auto;
+                 }
+                 .recentbrowsed>span
+                 {
+                     margin-bottom:50px;
+                     display:inline-block;
+                     font-size:18px;
+                     color:#999;
+                     }
+                     .recentbrowsed>.row
+                     {
+                         line-height:1;
+                         }
+                          .recentbrowsed>.row>.d>img
+                          {
+                               border:1px solid #ccc;
+                               margin-bottom:20px;
+                              }
+                          .recentbrowsed>.row>.d>.p
+                          {
+                              display:block;
+                              color:Red;
+                              font-size:18px;
+                              margin-bottom:15px;
+                              }
+                               .recentbrowsed>.row>.d>a
+                               {
+                                   display:block;
+                                   font-size:16px;
+                                   color:#999;
+                                   }
+                               .recentbrowsed>.row>.d>a:hover
+                               {
+                                   color:#3D9AD0;
+                                   text-decoration:none;
+                                   }
+                               
 
 
 
