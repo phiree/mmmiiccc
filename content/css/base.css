@@ -2,6 +2,14 @@
 {
     font-family:微软雅黑;
     }
+   /*导航特殊颜色*/
+   a.young,a.young:hover
+   {
+       color:#FBE104 !important;}
+       a.ruzhu,a.ruzhu:hover
+       {
+           color:#FD001C !important;}
+   
 a.brand:hover{
 background-color:#606060 !important;
 }
@@ -13,22 +21,28 @@ padding:4px 2px 4px 2px;
 
 /*--版权底*/
 #footer{
-text-align:center;
+text-align:left;
 color:#a8a8a8;
 font-size:12px;
+
 }
 #footer  div
 {
- padding:30px 0 15px 0;
+ padding:10px 0 15px 0;
 }
 #footer a{
 color:#a8a8a8;
+margin:0 5px;
 }
 #footer a:hover
 {
 color:#0287c7;
 text-decoration:none;
 }
+#footer .miib
+{
+     color:#b9b9b9;
+    }
 /*导航底*/
 
 #footer,.bottom-nav
@@ -59,3 +73,11 @@ text-decoration:none;
     text-decoration:none;
     color:#3D9AD0;
     }
+    .bl
+    {
+         border-right:solid 1px #ddd;
+        }
+        .bl img
+        {
+            margin:0 5px 5px  0;
+            }
