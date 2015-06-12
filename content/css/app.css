@@ -1,0 +1,28 @@
+
+a.brand:hover{
+background-color:#606060 !important;
+}
+.slide-img a,.slide-img a:hover
+{
+display:block;
+padding:4px 2px 4px 2px;
+}
+
+
+#footer{
+text-align:center;
+color:#a8a8a8;
+font-size:12px;
+}
+#footer  div
+{
+ margin:30px 0 30px 0;
+}
+#footer a{
+color:#a8a8a8;
+}
+#footer a:hover
+{
+color:#0287c7;
+text-decoration:none;
+}

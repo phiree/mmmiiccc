@@ -21,22 +21,28 @@ padding:4px 2px 4px 2px;
 
 /*--版权底*/
 #footer{
-text-align:center;
+text-align:left;
 color:#a8a8a8;
 font-size:12px;
+
 }
 #footer  div
 {
- padding:30px 0 15px 0;
+ padding:10px 0 15px 0;
 }
 #footer a{
 color:#a8a8a8;
+margin:0 5px;
 }
 #footer a:hover
 {
 color:#0287c7;
 text-decoration:none;
 }
+#footer .miib
+{
+     color:#b9b9b9;
+    }
 /*导航底*/
 
 #footer,.bottom-nav

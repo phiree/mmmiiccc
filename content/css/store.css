@@ -1,0 +1,60 @@
+.bxslider
+{
+    margin:0;
+    }
+.bx-controls-direction a
+{
+    top: 90% !important;
+    width: 67px !important;
+    height: 37px !important;
+}
+.bx-controls-direction a.bx-prev
+{
+    margin-right:10px;
+    left: 47%;
+    background:url(../img/up.png) top left no-repeat;
+}
+.bx-controls-direction a.bx-next
+{
+    left: 53%;
+      background:url(../img/down.png) top left no-repeat;
+}
+.bx-controls-direction a.bx-prev:hover
+{
+ 
+     background:url(../img/up_tm.png) top left no-repeat;
+}
+.bx-controls-direction a.bx-next:hover
+{
+    
+     background:url(../img/down_tm.png) top left no-repeat;
+}
+.bxslider div.title
+{
+    position:absolute;
+    top:100px;
+    left:100px;
+    line-height:1.2;
+   
+    }
+    .bxslider div.title p
+    {
+       
+        padding:3px;
+        display:inline-block;
+        background-color:#fff;
+        }
+        
+          .bxslider div.title .m
+          {
+               font-size:40px;
+              }
+                 .bxslider div.title .d
+          {
+               font-size:16px;
+              }
+              
+                 .bxslider div.title .d a
+          {
+               color:Black;
+              }
