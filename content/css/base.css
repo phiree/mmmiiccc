@@ -2,6 +2,14 @@
 {
     font-family:微软雅黑;
     }
+   /*导航特殊颜色*/
+   a.young,a.young:hover
+   {
+       color:#FBE104 !important;}
+       a.ruzhu,a.ruzhu:hover
+       {
+           color:#FD001C !important;}
+   
 a.brand:hover{
 background-color:#606060 !important;
 }
@@ -59,3 +67,11 @@ text-decoration:none;
     text-decoration:none;
     color:#3D9AD0;
     }
+    .bl
+    {
+         border-right:solid 1px #ddd;
+        }
+        .bl img
+        {
+            margin:0 5px 5px  0;
+            }

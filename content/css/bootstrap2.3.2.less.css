@@ -111,4 +111,20 @@ background-color:#404040;
   width:25%;
   }
 }
+.icon-mic
+{
+    background-position:0 0;
+    position:relative;
+    top:2px;
+    }
+.icon-young
+{
+    background-image:url(../img/young.png);
+    
+    }
+    .icon-ruzhu
+{
+    background-image:url(../img/ruzhu.png);
+    
+    }
 
