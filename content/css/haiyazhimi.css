@@ -1,0 +1,55 @@
+.hy
+{
+  background-color: #666;
+  padding:25px 0;
+}
+.hy2
+{
+  text-align: center;
+  padding-top: 120px;
+
+  height:503px;
+  width:333px;
+ 
+}
+.hyl
+{
+ background: url(../img/haiyazhimi/6_05.jpg) top left no-repeat;
+
+}
+.hym
+{
+  background: url(../img/haiyazhimi/6_07.jpg) top left no-repeat;
+}
+.hyr
+{
+  background: url(../img/haiyazhimi/6_09.jpg) top left no-repeat;
+}
+.hy2 ul
+{
+  list-style: none;
+}
+.hy2 ul li
+{
+  margin:20px 0;
+
+}
+.hy2 a
+{
+  font-size: 16px;
+  color:#999;
+}
+.hy2 a:hover
+{
+  text-decoration: none;
+  color:#eee;
+}
+.hym
+{
+  border-left:2px solid black;
+  border-right:2px solid black;
+}
+.hy2 .t a
+{
+  font-size:30px;
+}
