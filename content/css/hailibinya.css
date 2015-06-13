@@ -12,19 +12,23 @@
   background-color:rgba(0,0,0,0.9);
   position:absolute;
   line-height: 1.5;
-  height:350px;
+  height:50%;
   width:27%;
   text-align: center;
-  padding:50px 4% 0 4%;
+  padding:50px 5% 0 5%;
   cursor: pointer;
+}
+.mt .mt2
+{
+  text-align: right;
 }
 .mt:hover .mt2 .mt21
 {
-  color:#aaa;
+  color:#999;
 }
 .mt:hover .mt2 .mt22
 {
-  background-color: #c5115a;
+  background-color: #73193D;
 }
  
 .mt:hover .mt3,.mt:hover .mt4
