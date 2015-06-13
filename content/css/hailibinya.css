@@ -1,0 +1,78 @@
+.c
+{
+ padding:0;
+}
+.mb
+{
+  position:relative;
+  width:49.8%!important;
+}
+.mt
+{
+  background-color:rgba(0,0,0,0.9);
+  position:absolute;
+  line-height: 1.5;
+  height:350px;
+  width:27%;
+  text-align: center;
+  padding:50px 4% 0 4%;
+  cursor: pointer;
+}
+.mt:hover .mt2 .mt21
+{
+  color:#aaa;
+}
+.mt:hover .mt2 .mt22
+{
+  background-color: #c5115a;
+}
+ 
+.mt:hover .mt3,.mt:hover .mt4
+{
+  color:#444;
+}
+.mtl
+{
+ bottom:0;
+ right:0;
+}
+.mtr
+{
+  top:0;
+  left:0;
+}
+.ml
+{
+  margin-right:0.4%;
+}
+.mt2
+{
+  
+  text-align:center;
+}
+.mt21
+{ font-size:34px;
+  color:#fff; 
+  margin-right:10px; }
+.mt22
+{display:inline-block;
+  height:20px;width:20px; 
+  background-color:#E7337C;}
+  .mt3,.mt4
+  {
+    color:#555;
+     
+  }
+  .mt3
+  {
+    font-size:22px;
+    padding:15px 10px 25px 10px;
+    margin-bottom:30px;
+    border-bottom: 1px solid #555;
+    color: #888;
+  }
+  .mt4
+  {
+    text-align: left;
+    font-size:14px;
+  }
