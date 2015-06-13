@@ -1,0 +1,42 @@
+.c
+{
+  padding:0;
+  text-align: center;
+  background-color: #5C5C5C;
+}
+.list 
+{
+  position:relative;
+}
+.list .down
+{
+  position:absolute;
+  left:49%;
+  bottom:20px;
+  cursor: pointer;
+  display: none;
+}
+.list:hover .down
+{
+  
+  display:block;
+}
+.list a.buy
+{
+  position:absolute;
+  line-height: 1;
+  left:20%;
+  bottom:25%;
+  display:inline-block;
+  background: url(../img/zaixiangou/4_05.jpg) top right no-repeat;
+  font-size:16px;
+  padding:13px 110px 13px 16px;
+  background-color: #009FE0;
+  color:white;
+}
+.list a.buy:hover
+{
+  color:white;
+  text-decoration: none;
+  background-color:#1783AF; 
+}
